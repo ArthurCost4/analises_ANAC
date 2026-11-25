@@ -1,0 +1,85 @@
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+build/
+dist/
+*.egg-info/
+.eggs/
+
+*.so
+*.dll
+*.dylib
+
+venv/
+.venv/
+env/
+ENV/
+
+.ipynb_checkpoints/
+
+
+.vscode/
+
+
+.coverage
+.coverage.*
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+*.log
+
+*.tmp
+*.temp
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ==================================================
+# Dados (opcional)
+# Descomente se não quiser versionar datasets
+# ==================================================
+data/
+# datasets/
+*.csv
+# *.xlsx
+# *.xls
+# *.parquet
+
+# ==================================================
+# Saídas de análise
+# ==================================================
+output/
+outputs/
+results/
+# reports/
+
+# Imagens geradas por matplotlib/seaborn
+*.png
+*.jpg
+*.jpeg
+*.svg
+*.pdf
+
+# ==================================================
+# Segredos e configurações locais
+# ==================================================
+.env
+.env.*
+*.secret
+secrets.json
+
+# ==================================================
+# Arquivos específicos do sistema
+# ==================================================
+*.bak
+*.old
+
+data/raw/*
+data/processed/*
+*.csv
+*.parquet
